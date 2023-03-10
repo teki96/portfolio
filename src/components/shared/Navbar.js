@@ -27,7 +27,7 @@ const Navbar = () => {
                         <img src={profilePicture} alt=""/>
                     </div>
                 </div>
-                <Link to='home' spy={true} smooth={true} offset={50} duration={500} className="hover:text-secondary"><p className="btn btn-ghost normal-case font-thin text-xl">Teemu Kinnunen</p></Link>
+                <Link to='home' spy={true} smooth={true} offset={0} duration={500} className="hover:text-secondary"><p className="btn btn-ghost normal-case font-thin text-xl">Teemu Kinnunen</p></Link>
             </div>
             <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
